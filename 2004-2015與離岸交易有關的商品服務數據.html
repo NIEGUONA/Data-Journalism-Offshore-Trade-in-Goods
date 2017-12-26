@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>2004-2015與離岸交易有關的商品服務數據</title>
+</head>
+<body>
+    <div id="main" style="width: 1900px; height: 900px"></div>
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script type="text/javascript">
+        require.config({
+            paths : {
+                echarts : 'http://echarts.baidu.com/build/dist'
+            }
+        });
+        require(
+                [ 'echarts', 'echarts/chart/bar', 'echarts/chart/line'
+
+                ],
+                function(ec) {
+
+                    var myChart = ec.init(document.getElementById('main'),
+                            'macarons');
+                    var option = {
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['與離岸交易有關的商品服務貨品價值','與離岸交易有關的商品服務毛利╱佣金','貨品價值按年變動百分率','毛利╱佣金按年變動百分率']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    xAxis : [
+        {
+            type : 'category',
+            position: 'bottom',
+            boundaryGap: true,
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 10,
+                lineStyle: {
+                    color: 'red',
+                    type: 'solid',
+                    width: 3
+                }
+            },
+            axisLabel : {
+                show:true,
+                interval: 'auto',    // {number}
+                rotate: 0,
+                margin: 8,
+                formatter: '{value}年',
+                textStyle: {
+                   color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 15,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dashed',
+                    width: 1
+                }
+            },
+            data : [
+                '2004','2005','2006','2007','2008',
+                {
+                    value:'2009',
+                    textStyle: {
+                        color: 'red',
+                        fontSize: 10,
+                        fontStyle: 'normal',
+                        fontWeight: 'bold'
+                    }
+                },
+                '2010','2011','2012','2013','2014','2015'
+            ]
+        },
+        {
+            type : 'category',
+            data : ['04','05','06','07','08','09','10','11','12','13','14','15']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value',
+            position: 'left',
+            //min: 0,
+            //max: 300,
+            //splitNumber: 5,
+            boundaryGap: [0,0.1],
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'red',
+                    type: 'dashed',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 8,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+          axisLabel : {
+                show:true,
+                interval: 'auto',    // {number}
+                rotate: 50,
+                margin: 8,
+                formatter: '{value} 百萬港元',    // Template formatter!
+                    textStyle: {
+                    color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 20,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dotted',
+                    width: 2
+                }
+            }
+        },
+        {
+            type : 'value',
+            splitNumber: 10,
+            axisLabel : {
+                formatter: function (value) {
+                    // Function formatter
+                    return value + ' %'
+                }
+            },
+            splitLine : {
+                show: false
+            }
+        }
+    ],
+    series : [
+        {
+            name: '與離岸交易有關的商品服務貨品價值',
+            type: 'bar',
+            data:[518836, 558147, 564794, 586252, 592501, 460343, 548896, 610080, 623341, 547755, 497101, 463071]
+        },
+        {
+            name: '與離岸交易有關的商品服務毛利╱佣金',
+            type: 'bar',
+            data: [18727, 20453, 22255, 24633, 27574, 25111, 30126, 31298, 33146, 32366, 33030, 32100]
+        },
+        {
+            name:'貨品價值按年變動百分率',
+            type: 'line',
+            yAxisIndex: 1,
+            data: [6.8, 7.6, 1.2, 3.8, 1.1, -22.3, 19.2, 11.1, 2.2, -12.1, -9.2, -6.8]
+        },
+        {
+            name:'毛利╱佣金按年變動百分率',
+            type: 'line',
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            data: [14.4, 9.2, 8.8, 10.7, 11.9, -8.9, 20.0, 3.9, 5.9, -2.4, 2.1, -2.8]
+        }
+    ]
+};
+                    
+                    
+
+                    myChart.setOption(option);
+                });
+    </script>
+</body>
+</html>
