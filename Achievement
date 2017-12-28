@@ -1,0 +1,759 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!-- <link rel="stylesheet" href="mdzz.css" type="text/css" /> -->
+<meta charset="UTF-8">
+ <title>Hong Kong Offshore Trade in Goods</title>
+ <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+</head>
+<body style="width: 1500px; height: 800px;margin:auto;" />
+<div class="top" style="font-size:20px;font-family:'微软雅黑';color:gray ">
+<div  align="left">
+<img src="http://img.mp.itc.cn/upload/20170215/08b83450d94b4e50bb738e8d2abd312b_th.jpg " style="width: 1500px; height: 800px;margin:auto;" />
+</div>
+<!-- <div class="tright"></div> -->
+</div>
+<div class="midtop" style="font-size:30px;font-family:'微软雅黑';color:#003366" align="center">
+	<h1>Hong Kong Off shore Trade in Goods</h1>
+	<h2>——Are you going to Hong Kong shopping today?</h2>
+</div>
+<div class="midroot" style="font-size:25px;font-family:'Times New Roman';text-align:justify">
+	<h3 style="color:#003366">Introduction</h3>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;Offshore trade in goods covers “merchanting” and “merchandising for offshore transactions” provided by establishments operating in Hong Kong (excluding their affiliates located outside Hong Kong). The goods involved in offshore trade activities are shipped directly from a party outside Hong Kong to another party outside Hong Kong without the goods passing through Hong Kong. Earnings from offshore trade in goods refer to gross margin from “merchanting” and commission from “merchandising for offshore transactions”, but not value of the goods involved.
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;In merchanting, establishments operating in Hong Kong purchase goods from non-local parties and then sell to buyers outside Hong Kong, without the goods entering and leaving Hong Kong. These establishments take ownership of the goods involved. Besides, establishments operating in Hong Kong may also sell their goods manufactured through sub-contract processing directly from places abroad to parties outside Hong Kong. This type of trading is also treated as “merchanting”. The establishments mentioned above in their capacity as traders have once owned the goods involved, where they earn gross margin as their production income.
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Regarding merchandising for offshore transactions, establishments operating in Hong Kong arrange services on behalf of buyers/sellers outside Hong Kong the purchases/sales of goods according to their specifications, including services such as multiple sourcing; marketing; contract and price negotiation; sample and volume procurement; shipment, inspection and arrangement of follow-up order. The goods involved are sold by non-local parties to other non-local parties, without the goods entering and leaving Hong Kong. These establishments in their capacity as agents or brokers earn commissions or service charges as their production income, where they have not taken ownership of the goods involved.</p>
+    <br>
+    <h3 style="color:#003366">Data Analysis</h3>
+    <center><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1514479524011&amp;di=a74788aa87c6ed3d3e085268af7cc0a8&amp;imgtype=0&amp;src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D7224e9173a4e251ff6faecbbcfefa362%2F94cad1c8a786c9174c2e1914c33d70cf3bc757e9.jpg" style="width: 1000px; height: 600px;border="6"/></center>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;The new word “Offshoring” was unknown to us a few decades ago. Taking advantage of the opportunity of offshore trade, Hong Kong has shifted from re-exporting trade to offshore trade.
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Offshore trade is playing an increasingly important role in Hong Kong’s foreign trade, but it also has many bad effects, such as the RMB exchange rate arrangement and the operation of the monetary policy constitute a significant pressure, impacting on the country's economic growth and employment.</p>
+    <br>
+    <h3 style="color:#003366">Watching the latest changes in 2015</h3>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;According to the new data, a total of $4,334.9 billion in terms of the sales value of goods in 2015, down by 17.1% compared with 2014. The sales value of goods involved in “merchanting” fell by 18.2% compared with 2014 to $3,871.9 billion.  Meanwhile, the sales value of goods involved in “merchandising for offshore transactions” was estimated at $463.1 billion in 2015, down by 6.8% compared with 2014. 
+    <br>
+    <br>
+    <div id="picture1" style="width: 1500px; height: 600px"></div>
+    <h4 style="font-size:25px;font-family:'Times New Roman';font-style: italic;" align="center";color:#cccccc ">(Offshore Trade in Goods from 2004 to 2015)</h4>
+    <br>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;In 2015, Hong Kong earned $275.5 billion from offshore trade, down by 3.0% compared with 2014.  Within this total, the gross margin from “merchanting” was $243.4 billion (down by 3.0% compared with 2014), and the commission from “merchandising for offshore transactions” was $32.1 billion (down by 2.8%).
+    <br>
+    <br>
+    <div id="picture2" style="width: 1500px; height: 600px"></div>
+    <h4 style="font-size:25px;font-family:'Times New Roman';font-style: italic;" align="center";color:#cccccc ">(“Merchanting” from 2004 to 2015)</h4>
+    <br>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;The rate of gross margin from “merchanting” was 6.3%, up by 1% compared with 2014 and the commission rate from “merchandising for offshore transactions” was 6.9%, up by 0.3% compared with 2014.
+    <br>
+    <br>
+    <div id="picture3" style="width: 1500px; height: 600px"></div>
+    </p>
+    <h4 style="font-size:25px;font-family:'Times New Roman';font-style: italic;" align="center";color:#cccccc ">(“Merchandising for offshore transactions” from 2004 to 2015)</h4>
+    <br>
+    <h3 style="color:#003366">About 12 years, how much do you know?</h3>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;There is a difference in the level of involvement of the service providers in “merchanting” and “merchandising for offshore transactions” activities. This might be reflected by the difference between the rate of gross margin from “merchanting” and the commission rate from “merchandising for offshore transactions” estimated from 2004 to 2015.
+    <br>
+    <br>
+    <div id="picture4" style="width: 1500px; height: 600px"></div>
+    <h4 style="font-size:25px;font-family:'Times New Roman';font-style: italic;" align="center";color:#cccccc ">(The rate of gross margin from “merchanting” and the commission rate from “merchandising for offshore transactions” from 2004 to 2015)</h4>
+   <br>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://n.sinaimg.cn/translate/20170804/xPZL-fyitapp0607916.gif" style="width: 700px; height: 500px;float:left" />From 2004 to 2015, the sales value of goods declined in only 2009 and 2015.A Government spokesman notes that offshore trade fell notably in 2009, due to the collapse of world trade in the early part of that year amid the global recession. Nevertheless, exports of services relating to offshore trade rebounded notably in the latter part of 2009 and maintained strong growth in 2010, reflecting the important role of offshore trade in Hong Kong's trade structure.
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Depreciation of RMB in 2015 with increasing volatility led to declining share of cross-border settlements and lower RMB savings in offshore RMB centers in Hong Kong, lower issuance of offshore RMB bonds and the slowdown of currency swaps as well. As a result, 2015 offshore trade fell notably.
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;Despite there are some years the value of sales of goods declining, Hong Kong Offshore trade is still a source of revenue, according to the rate of gross margin from “merchanting” and the commission rate from “merchandising for offshore transactions” estimated from 2004 to 2015. And more and more revenue comes from “the commission from “merchandising for offshore transactions.”
+   <br>
+   <br>
+   </p> 
+   <h3 style="color:#003366">The previous existence and this life about Hong Kong Offshore Trade</h3>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;The rise of offshore trade in Hong Kong is partly due to the accelerated development of manufacturing and the rapid growth of foreign trade in areas outside of Guangdong Province, especially the Yangtze River Delta. On the other hand, it is a direct result of the rapid rise of the Mainland's trade support services, especially the Pearl River Delta region .</p>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;In the future development of Hong Kong’s trade, offshore trade will become the main force of trade development. Hong Kong will gradually shift from a re-entrant trade center to a trading and operation center integrating multiple trade modes.</p>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;Let’s wait and see.</p>
+   <img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1514478052211&amp;di=052e171ccd6be1d0faf482e807ca65bb&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F017ae359828b0600000021293a47a3.jpg" style="width: 1500px; height: 600px;></p>
+
+<br>
+   <br>
+   <h5 style="font-size:20px;font-family:'Times New Roman';color:#cccc99" align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Sources: Census and Statistics Department, The Government of the Hong Kong Special Administrative Region</h5>
+   <h5 style="font-size:20px;font-family:'Times New Roman';color:#cccc99" align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link: http://www.censtatd.gov.hk/gb/?param=b5uniS&url=http://www.censtatd.gov.hk/hkstat/sub/sp454_tc.jsp</h5>
+   <h5 style="font-size:20px;font-family:'Times New Roman';color:#cccc99" align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Route: Hong Kong Statistics-Offshore Trade in Goods-Publications and Tables-Table E055: Offshore trade in goods ( Starts in 2002 and last update on 24, Feb, 2017) </h5>
+   <h5 style="font-size:20px;font-family:'Times New Roman';color:#cccc99" align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notes：Photos from network.</h5>
+   <h5 style="font-size:20px;font-family:'Times New Roman';color:#cccc99" align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:聂国娜;  Student number: 20151302999; Class number: Journalism 1502</div>
+</p>
+</div>
+</body>
+
+<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script type="text/javascript">
+        require.config({
+            paths : {
+                echarts : 'http://echarts.baidu.com/build/dist'
+            }
+        });
+        require(
+                [ 'echarts', 'echarts/chart/bar', 'echarts/chart/line'
+
+                ],
+                function(ec) {
+
+                    var myChart = ec.init(document.getElementById('picture4'),
+                            'macarons');
+                    var option = {
+    title : {
+        text: '轉手商貿活動&與離岸交易有關的商品服務毛利率╱佣金率（百分比）',
+        subtext: '數據來自香港特別行政區政府統計處',
+        x: 'center'
+    },
+    tooltip : {
+        trigger: 'axis',
+        formatter: function(params) {
+            return params[0].name + '<br/>'
+                   + params[0].seriesName + ' : ' + params[0].value + ' (%)<br/>'
+                   + params[1].seriesName + ' : ' + -params[1].value + ' (%)';
+        }
+    },
+    legend: {
+        data:['轉手商貿活動毛利率','與離岸交易有關的商品服務佣金率'],
+        x: 'left'
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    dataZoom : {
+        show : true,
+        realtime : true,
+        start : 0,
+        end : 100
+    },
+    xAxis : [
+        {
+            type : 'category',
+            boundaryGap : false,
+            axisLine: {onZero: false},
+            data : [
+                '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015'
+            ]
+        }
+    ],
+    yAxis : [
+        {
+            name : '轉手商貿活動毛利率(%)',
+            type : 'value',
+            max : 10
+        },
+        {
+            name : '與離岸交易有關的商品服務佣金率(%)',
+            type : 'value',
+            axisLabel : {
+                formatter: function(v){
+                    return - v;
+                }
+            }
+        }
+    ],
+    series : [
+        {
+            name:'轉手商貿活動毛利率',
+            type:'line',
+            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+            data:[
+                8.6,8.4,8.1,7.8,6.4,6.9,6.1,6.0,5.9,5.6,5.3,6.3
+            ]
+        },
+        {
+            name:'與離岸交易有關的商品服務佣金率',
+            type:'line',
+            yAxisIndex:1,
+            itemStyle: {normal: {areaStyle: {type: 'default'}}},
+            data: (function(){
+                var oriData = [
+                    3.6,3.7,3.9,4.2,4.7,5.5,5.5,5.1,5.3,5.9,6.6,6.9
+                ];
+                var len = oriData.length;
+                while(len--) {
+                    oriData[len] *= -1;
+                }
+                return oriData;
+            })()
+        }
+    ]
+};
+                    
+                    
+
+                    
+
+                    myChart.setOption(option);
+                });
+    </script>
+    <script type="text/javascript">
+        require.config({
+            paths : {
+                echarts : 'http://echarts.baidu.com/build/dist'
+            }
+        });
+        require(
+                [ 'echarts', 'echarts/chart/bar', 'echarts/chart/line'
+
+                ],
+                function(ec) {
+
+                    var myChart = ec.init(document.getElementById('picture1'),
+                            'macarons');
+                    var option = {
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['與離岸交易有關的商品服務貨品價值','與離岸交易有關的商品服務毛利╱佣金','貨品價值按年變動百分率','毛利╱佣金按年變動百分率']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    xAxis : [
+        {
+            type : 'category',
+            position: 'bottom',
+            boundaryGap: true,
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 10,
+                lineStyle: {
+                    color: 'red',
+                    type: 'solid',
+                    width: 3
+                }
+            },
+            axisLabel : {
+                show:true,
+                interval: 'auto',    // {number}
+                rotate: 0,
+                margin: 8,
+                formatter: '{value}年',
+                textStyle: {
+                   color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 15,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dashed',
+                    width: 1
+                }
+            },
+            data : [
+                '2004','2005','2006','2007','2008',
+                {
+                    value:'2009',
+                    textStyle: {
+                        color: 'red',
+                        fontSize: 10,
+                        fontStyle: 'normal',
+                        fontWeight: 'bold'
+                    }
+                },
+                '2010','2011','2012','2013','2014','2015'
+            ]
+        },
+        {
+            type : 'category',
+            data : ['04','05','06','07','08','09','10','11','12','13','14','15']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value',
+            position: 'left',
+            //min: 0,
+            //max: 300,
+            //splitNumber: 5,
+            boundaryGap: [0,0.1],
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'red',
+                    type: 'dashed',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 8,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+          axisLabel : {
+                show:true,
+                interval: 'auto',    // {number}
+                rotate: 50,
+                margin: 8,
+                formatter: '{value} 百萬港元',    // Template formatter!
+                    textStyle: {
+                    color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 20,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dotted',
+                    width: 2
+                }
+            }
+        },
+        {
+            type : 'value',
+            splitNumber: 10,
+            axisLabel : {
+                formatter: function (value) {
+                    // Function formatter
+                    return value + ' %'
+                }
+            },
+            splitLine : {
+                show: false
+            }
+        }
+    ],
+    series : [
+        {
+            name: '與離岸交易有關的商品服務貨品價值',
+            type: 'bar',
+            data:[518836, 558147, 564794, 586252, 592501, 460343, 548896, 610080, 623341, 547755, 497101, 463071]
+        },
+        {
+            name: '與離岸交易有關的商品服務毛利╱佣金',
+            type: 'bar',
+            data: [18727, 20453, 22255, 24633, 27574, 25111, 30126, 31298, 33146, 32366, 33030, 32100]
+        },
+        {
+            name:'貨品價值按年變動百分率',
+            type: 'line',
+            yAxisIndex: 1,
+            data: [6.8, 7.6, 1.2, 3.8, 1.1, -22.3, 19.2, 11.1, 2.2, -12.1, -9.2, -6.8]
+        },
+        {
+            name:'毛利╱佣金按年變動百分率',
+            type: 'line',
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            data: [14.4, 9.2, 8.8, 10.7, 11.9, -8.9, 20.0, 3.9, 5.9, -2.4, 2.1, -2.8]
+        }
+    ]
+};
+                    
+                    
+
+                    myChart.setOption(option);
+                });
+    </script>
+     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script type="text/javascript">
+        require.config({
+            paths : {
+                echarts : 'http://echarts.baidu.com/build/dist'
+            }
+        });
+        require(
+                [ 'echarts', 'echarts/chart/bar', 'echarts/chart/line'
+
+                ],
+                function(ec) {
+
+                    var myChart = ec.init(document.getElementById('picture3'),
+                            'macarons');
+                    var option = {
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['與離岸交易有關的商品服務貨品價值','與離岸交易有關的商品服務毛利╱佣金','貨品價值按年變動百分率','毛利╱佣金按年變動百分率']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    xAxis : [
+        {
+            type : 'category',
+            position: 'bottom',
+            boundaryGap: true,
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 10,
+                lineStyle: {
+                    color: 'red',
+                    type: 'solid',
+                    width: 3
+                }
+            },
+            axisLabel : {
+                show:true,
+                interval: 'auto',    // {number}
+                rotate: 0,
+                margin: 8,
+                formatter: '{value}年',
+                textStyle: {
+                   color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 15,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dashed',
+                    width: 1
+                }
+            },
+            data : [
+                '2004','2005','2006','2007','2008',
+                {
+                    value:'2009',
+                    textStyle: {
+                        color: 'red',
+                        fontSize: 10,
+                        fontStyle: 'normal',
+                        fontWeight: 'bold'
+                    }
+                },
+                '2010','2011','2012','2013','2014','2015'
+            ]
+        },
+        {
+            type : 'category',
+            data : ['04','05','06','07','08','09','10','11','12','13','14','15']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value',
+            position: 'left',
+            //min: 0,
+            //max: 300,
+            //splitNumber: 5,
+            boundaryGap: [0,0.1],
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'red',
+                    type: 'dashed',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 8,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+          axisLabel : {
+                show:true,
+                interval: 'auto',    // {number}
+                rotate: 50,
+                margin: 8,
+                formatter: '{value} 百萬港元',    // Template formatter!
+                    textStyle: {
+                    color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 20,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dotted',
+                    width: 2
+                }
+            }
+        },
+        {
+            type : 'value',
+            splitNumber: 10,
+            axisLabel : {
+                formatter: function (value) {
+                    // Function formatter
+                    return value + ' %'
+                }
+            },
+            splitLine : {
+                show: false
+            }
+        }
+    ],
+    series : [
+        {
+            name: '與離岸交易有關的商品服務貨品價值',
+            type: 'bar',
+            data:[518836, 558147, 564794, 586252, 592501, 460343, 548896, 610080, 623341, 547755, 497101, 463071]
+        },
+        {
+            name: '與離岸交易有關的商品服務毛利╱佣金',
+            type: 'bar',
+            data: [18727, 20453, 22255, 24633, 27574, 25111, 30126, 31298, 33146, 32366, 33030, 32100]
+        },
+        {
+            name:'貨品價值按年變動百分率',
+            type: 'line',
+            yAxisIndex: 1,
+            data: [6.8, 7.6, 1.2, 3.8, 1.1, -22.3, 19.2, 11.1, 2.2, -12.1, -9.2, -6.8]
+        },
+        {
+            name:'毛利╱佣金按年變動百分率',
+            type: 'line',
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            data: [14.4, 9.2, 8.8, 10.7, 11.9, -8.9, 20.0, 3.9, 5.9, -2.4, 2.1, -2.8]
+        }
+    ]
+};
+                    
+                    
+
+                    myChart.setOption(option);
+                });
+    </script>
+     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script type="text/javascript">
+        require.config({
+            paths : {
+                echarts : 'http://echarts.baidu.com/build/dist'
+            }
+        });
+        require(
+                [ 'echarts', 'echarts/chart/bar', 'echarts/chart/line'
+
+                ],
+                function(ec) {
+
+                    var myChart = ec.init(document.getElementById('picture2'),
+                            'macarons');
+                    var option = {
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['轉手商貿活動貨品價值','轉手商貿活動毛利╱佣金','貨品價值按年變動百分率','毛利╱佣金按年變動百分率']
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    xAxis : [
+        {
+            type : 'category',
+            position: 'bottom',
+            boundaryGap: true,
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 10,
+                lineStyle: {
+                    color: 'red',
+                    type: 'solid',
+                    width: 3
+                }
+            },
+            axisLabel : {
+                show:true,
+                interval: 'auto',    // {number}
+                rotate: 0,
+                margin: 8,
+                formatter: '{value}年',
+                textStyle: {
+                    color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 20,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dashed',
+                    width: 1
+                }
+            },
+            data : [
+                '2004','2005','2006','2007','2008',
+                {
+                    value:'2009',
+                    textStyle: {
+                        color: 'red',
+                        fontSize: 10,
+                        fontStyle: 'normal',
+                        fontWeight: 'bold'
+                    }
+                },
+                '2010','2011','2012','2013','2014','2015'
+            ]
+        },
+        {
+            type : 'category',
+            data : ['04','05','06','07','08','09','10','11','12','13','14','15']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value',
+            position: 'left',
+            //min: 0,
+            //max: 10000000,
+            //splitNumber: 5,
+            boundaryGap: [0,0.1],
+            axisLine : {    // 轴线
+                show: true,
+                lineStyle: {
+                    color: 'red',
+                    type: 'dashed',
+                    width: 2
+                }
+            },
+            axisTick : {    // 轴标记
+                show:true,
+                length: 8,
+                lineStyle: {
+                    color: 'green',
+                    type: 'solid',
+                    width: 2
+                }
+            },
+            axisLabel : {
+                show:true,
+                interval: '0',    // {number}
+                rotate: 50,
+                margin: 8,
+                formatter: '{value} 百萬港元',    // Template formatter!
+                    textStyle: {
+                    color: '#1e90ff',
+                    fontFamily: 'sans-serif',
+                    fontSize: 20,
+                    fontStyle: 'Times New Roman',
+                    fontWeight: 'bold'
+                }
+            },
+            splitLine : {
+                show:true,
+                lineStyle: {
+                    color: '#483d8b',
+                    type: 'dotted',
+                    width: 2
+                }
+            }
+        },
+        {
+            type : 'value',
+            splitNumber: 10,
+            axisLabel : {
+                formatter: function (value) {
+                    // Function formatter
+                    return value + ' %'
+                }
+            },
+            splitLine : {
+                show: false
+            }
+        }
+    ],
+    series : [
+        {
+            name: '轉手商貿活動貨品價值',
+            type: 'bar',
+            data:[1317002, 1529016, 1781676, 2072686, 2770318, 2470813, 3337403, 3856877, 4045616, 4406639, 4733141, 3871864]
+        },
+        {
+            name: '轉手商貿活動毛利╱佣金',
+            type: 'bar',
+            data: [113473, 128547, 143495, 161326, 176479, 171491, 203325, 230462, 239021, 245945, 250904, 243407]
+        },
+        {
+            name:'貨品價值按年變動百分率',
+            type: 'line',
+            yAxisIndex: 1,
+            data: [11.5, 16.1, 16.5, 16.3, 33.7, -10.8, 35.1, 15.6, 4.9, 8.9, 7.4, -18.2]
+        },
+        {
+            name:'毛利╱佣金按年變動百分率',
+            type: 'line',
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            data: [13.3, 13.3, 11.6, 12.4, 9.4, -2.8, 18.6, 13.3, 3.7, 2.9, 2.0, -3.0]
+        }
+    ]
+};
+                    
+                    
+                    
+                    
+
+                    myChart.setOption(option);
+                });
+    </script>
+</html>
